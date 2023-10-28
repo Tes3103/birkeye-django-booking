@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-tes3103-birkeye-django-b-j413f63p6z.us2.codeanyapp.com', 'bkbooking2023.herokuapp.com', 'localhost']
+    '8000-tes3103-birkeye-django-b-j413f63p6z.us2.codeanyapp.com', 'bkbooking2023-f182f03be367.herokuapp.com', 'localhost']
 
 
 # Application definition
