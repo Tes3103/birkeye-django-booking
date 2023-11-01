@@ -1,3 +1,5 @@
 from django.contrib import admin
+from menu.models import Meal, Favourite
 
-# Register your models here.
+admin.site.register(Meal)
+admin.site.register(Favourite)
