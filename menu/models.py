@@ -21,6 +21,5 @@ class Favourite(models.Model):
     class Meta:
         ordering = ['meal']
 
-
     def _str_(self):
         return self.user
