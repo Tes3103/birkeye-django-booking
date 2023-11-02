@@ -28,3 +28,8 @@ class Booking(models.Model):
 
     def __str__(self):
         return self.table
+
+
+class BookingQuery(models.Model):
+    """Model for booking query form"""
+    date = models.DateField()
